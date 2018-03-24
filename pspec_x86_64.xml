@@ -1,0 +1,46 @@
+<PISI>
+    <Source>
+        <Name>megazeux</Name>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>games</PartOf>
+        <Summary xml:lang="en">A game creation system (GCS)</Summary>
+        <Description xml:lang="en">MegaZeux is a game creation system (GCS) created by game developer Alexis Janson in 1994. Originally a DOS program, in 2005 a multi-platform port was released by Exophase and it is still being developed today.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>megazeux</Name>
+        <Summary xml:lang="en">A game creation system (GCS)</Summary>
+        <Description xml:lang="en">MegaZeux is a game creation system (GCS) created by game developer Alexis Janson in 1994. Originally a DOS program, in 2005 a multi-platform port was released by Exophase and it is still being developed today.
+</Description>
+        <PartOf>games</PartOf>
+        <Files>
+            <Path fileType="config">/etc/megazeux-config</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/megazeux/ccv</Path>
+            <Path fileType="library">/usr/lib64/megazeux/checkres</Path>
+            <Path fileType="library">/usr/lib64/megazeux/downver</Path>
+            <Path fileType="library">/usr/lib64/megazeux/hlp2txt</Path>
+            <Path fileType="library">/usr/lib64/megazeux/libcore.so</Path>
+            <Path fileType="library">/usr/lib64/megazeux/libeditor.so</Path>
+            <Path fileType="library">/usr/lib64/megazeux/txt2hlp</Path>
+            <Path fileType="data">/usr/share/applications/megazeux.desktop</Path>
+            <Path fileType="data">/usr/share/applications/mzxrun.desktop</Path>
+            <Path fileType="data">/usr/share/icons/megazeux.png</Path>
+            <Path fileType="data">/usr/share/megazeux</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-21</Date>
+            <Version>2.91b</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>
