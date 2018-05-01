@@ -35,8 +35,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-21</Date>
+        <Update release="2">
+            <Date>2018-04-30</Date>
             <Version>2.91b</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
